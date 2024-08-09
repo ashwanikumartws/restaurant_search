@@ -1,0 +1,726 @@
+@font-face {
+  font-family: "CrimsonText";
+  src: url("../fonts/CrimsonText-Regular.eot");
+  src: url("../fonts/CrimsonText-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/CrimsonText-Regular.woff2") format("woff2"),
+    url("../fonts/CrimsonText-Regular.woff") format("woff"),
+    url("../fonts/CrimsonText-Regular.ttf") format("truetype"),
+    url("../fonts/CrimsonText-Regular.svg#CrimsonText-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CrimsonText";
+  src: url("../fonts/CrimsonText-SemiBold.eot");
+  src: url("../fonts/CrimsonText-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/CrimsonText-SemiBold.woff2") format("woff2"),
+    url("../fonts/CrimsonText-SemiBold.woff") format("woff"),
+    url("../fonts/CrimsonText-SemiBold.ttf") format("truetype"),
+    url("../fonts/CrimsonText-SemiBold.svg#CrimsonText-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CrimsonText";
+  src: url("../fonts/CrimsonText-Bold.eot");
+  src: url("../fonts/CrimsonText-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/CrimsonText-Bold.woff2") format("woff2"),
+    url("../fonts/CrimsonText-Bold.woff") format("woff"),
+    url("../fonts/CrimsonText-Bold.ttf") format("truetype"),
+    url("../fonts/CrimsonText-Bold.svg#CrimsonText-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/JosefinSans-ExtraLight.eot");
+  src: url("../fonts/JosefinSans-ExtraLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/JosefinSans-ExtraLight.woff2") format("woff2"),
+    url("../fonts/JosefinSans-ExtraLight.woff") format("woff"),
+    url("../fonts/JosefinSans-ExtraLight.ttf") format("truetype"),
+    url("../fonts/JosefinSans-ExtraLight.svg#JosefinSans-ExtraLight")
+      format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/JosefinSans-Thin.eot");
+  src: url("../fonts/JosefinSans-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/JosefinSans-Thin.woff2") format("woff2"),
+    url("../fonts/JosefinSans-Thin.woff") format("woff"),
+    url("../fonts/JosefinSans-Thin.ttf") format("truetype"),
+    url("../fonts/JosefinSans-Thin.svg#JosefinSans-Thin") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/JosefinSans-Light.eot");
+  src: url("../fonts/JosefinSans-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/JosefinSans-Light.woff2") format("woff2"),
+    url("../fonts/JosefinSans-Light.woff") format("woff"),
+    url("../fonts/JosefinSans-Light.ttf") format("truetype"),
+    url("../fonts/JosefinSans-Light.svg#JosefinSans-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/JosefinSans-Regular.eot");
+  src: url("../fonts/JosefinSans-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/JosefinSans-Regular.woff2") format("woff2"),
+    url("../fonts/JosefinSans-Regular.woff") format("woff"),
+    url("../fonts/JosefinSans-Regular.ttf") format("truetype"),
+    url("../fonts/JosefinSans-Regular.svg#JosefinSans-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/JosefinSans-Medium.eot");
+  src: url("../fonts/JosefinSans-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/JosefinSans-Medium.woff2") format("woff2"),
+    url("../fonts/JosefinSans-Medium.woff") format("woff"),
+    url("../fonts/JosefinSans-Medium.ttf") format("truetype"),
+    url("../fonts/JosefinSans-Medium.svg#JosefinSans-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/JosefinSans-SemiBold.eot");
+  src: url("../fonts/JosefinSans-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/JosefinSans-SemiBold.woff2") format("woff2"),
+    url("../fonts/JosefinSans-SemiBold.woff") format("woff"),
+    url("../fonts/JosefinSans-SemiBold.ttf") format("truetype"),
+    url("../fonts/JosefinSans-SemiBold.svg#JosefinSans-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/JosefinSans-Bold.eot");
+  src: url("../fonts/JosefinSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/JosefinSans-Bold.woff2") format("woff2"),
+    url("../fonts/JosefinSans-Bold.woff") format("woff"),
+    url("../fonts/JosefinSans-Bold.ttf") format("truetype"),
+    url("../fonts/JosefinSans-Bold.svg#JosefinSans-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  font-family: "JosefinSans", sans-serif !important;
+  font-size: 16px !important;
+  color: rgb(33, 37, 41);
+  background-color: #fff;
+  line-height: 1.4 !important;
+  font-weight: 400;
+}
+p {
+  font-family: "CrimsonText", serif !important;
+}
+.company_bio {
+  font-family: "JosefinSans", sans-serif !important;
+  width: 100% !important;
+}
+.container {
+  width: 100% !important;
+  max-width: 1430px !important;
+  padding: 0 15px !important;
+}
+.header-wrapper {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  background-color: transparent;
+  padding-top: 10px;
+  font-family: "JosefinSans", sans-serif !important;
+}
+.logo {
+  float: left;
+  width: 100%;
+  max-width: 325px;
+  padding: 10px 0;
+}
+.logo a {
+  display: inline-block;
+  width: 100%;
+  max-width: 325px;
+}
+.menu-area {
+  float: right;
+  width: calc(100% - 350px);
+  text-align: right;
+}
+.menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+}
+.menu li {
+  display: inline-block;
+  margin-left: 5.5%;
+}
+.menu li a {
+  display: inline-block;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  border-bottom: solid 4px transparent;
+  font-weight: 600;
+  padding: 20px 0;
+  outline: none;
+}
+.menu li a:hover,
+.active a {
+  color: #fff !important;
+  border-color: #04726d !important;
+}
+.login-btn {
+  margin-left: 15px;
+  padding-top: 18px;
+  width: 100%;
+  max-width: 130px;
+}
+.login-btn a {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #02736e;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+}
+.login-btn a:hover {
+  background-color: #04726d;
+  color: #fff;
+}
+.play_store_btn {
+  gap: 15px;
+  margin-top: 30px;
+}
+.how-it-works-heading-section {
+  padding-top: 100px;
+  background-color: #fff;
+}
+.how-it-works {
+  padding: 30px 0;
+  background-color: #fff;
+}
+.how-it-works .how-it-work-title {
+  padding-top: 36px;
+}
+.section-block-heading {
+  font-size: 40px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+.section-block-text {
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: "CrimsonText", serif !important;
+}
+.gray-background {
+  background-color: #fbfbfb;
+}
+.fav-companies {
+  padding: 10px 0;
+}
+.vip-services {
+  padding: 0;
+}
+.lock-unlock {
+  padding: 10px 0;
+}
+.pitch_text {
+  text-align: center;
+  color: white;
+}
+img.footer_logo {
+  max-width: 280px;
+  margin-bottom: 30px;
+  width: 100%;
+  margin-right: 20px;
+}
+.footer-wrapper {
+  background-image: url("/images/footer-bg.webp");
+  padding: 60px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.footer-wrapper h4 {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 22px;
+}
+.footer-wrapper p {
+  color: #fff;
+  font-family: "JosefinSans", sans-serif !important;
+}
+.margin-left {
+  padding-left: 40px !important;
+}
+.search_bar {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 850px;
+  background-color: white;
+  box-shadow: 3px 3px 50px #00000029;
+  margin: -40px auto 0;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+.search_bar input {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+}
+.search_bar input:focus {
+  outline: none;
+}
+.search_button {
+  background-color: #e13773;
+  color: white;
+  padding: 26px;
+  border: 0;
+  width: 100%;
+  max-width: 270px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.city-search-box {
+  width: 100%;
+  max-width: 250px;
+}
+.search-business-box {
+  width: 100%;
+  max-width: 340px;
+}
+.search-business-box:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 1px;
+  height: 40px;
+  background-color: #ccc;
+}
+.preference-secure {
+  padding: 0;
+  margin: 20px auto;
+  list-style: none;
+  width: 100%;
+  max-width: 700px;
+}
+.preference-secure li {
+  float: left;
+  width: 50%;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .search-company-wrapper p {
+    width: 100%;
+  }
+  .engine_mobile_img {
+    position: absolute;
+    top: -3rem;
+  }
+  .Preference_Engine_start {
+    margin-bottom: 7rem;
+  }
+  .bg_image_blue_baner .section-block-text {
+    font-size: 25px;
+  }
+  .share-link-text {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+  .logo {
+    max-width: 260px;
+    padding-top: 15px;
+  }
+  .menu-area {
+    width: calc(100% - 280px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    max-width: 220px;
+    padding-top: 15px;
+  }
+  .menu-area {
+    width: calc(100% - 220px);
+  }
+  .menu li {
+    margin-left: 4.5%;
+  }
+  .login-btn {
+    max-width: 100px;
+  }
+  .how-it-work-title {
+    font-size: 56px;
+  }
+  .section-block-heading {
+    font-size: 30px;
+  }
+  .section-block-text {
+    font-size: 19px;
+  }
+  .your_preference {
+    padding: 70px 0;
+  }
+  .preference_text {
+    font-size: 50px;
+  }
+  .preference-secure li {
+    font-size: 20px;
+  }
+  .margin-left {
+    padding-left: 15px !important;
+  }
+  .footer-wrapper h4 {
+    margin-top: 20px;
+  }
+  .company-profile-area {
+    padding-right: 0;
+  }
+  .profile-banner-absolute {
+    bottom: 20px;
+  }
+  .profile-banner-absolute h1 {
+    font-size: 38px;
+  }
+  .profile-location {
+    font-size: 20px;
+  }
+  .engine_mobile_img {
+    position: static;
+    top: unset !important;
+  }
+  .Preference_Engine_start h1 {
+    font-size: 35px;
+  }
+  .hero_content {
+    padding-block: 60px;
+  }
+  .login-btn a {
+    padding: 6px 20px;
+  }
+  .play-store-btns a img {
+    max-width: 150px;
+  }
+  .how-it-works-heading-section {
+    padding-top: 30px;
+  }
+  .bg_image_blue_baner {
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner-wrapper {
+    padding: 100px 0;
+  }
+  .banner-title {
+    font-size: 34px;
+  }
+  .banner-subtitle {
+    font-size: 22px;
+  }
+  .header-wrapper {
+    padding-top: 0;
+  }
+  .how-it-works .how-it-work-title {
+    padding-top: 20px;
+  }
+  .banner-image {
+    margin-top: 60px !important;
+  }
+  .section-block-pl {
+    padding-left: 15px;
+  }
+  .how-it-work-title {
+    font-size: 44px;
+  }
+
+  .login-btn {
+    padding-top: 15px;
+  }
+  .number-col {
+    margin-top: 1.5rem;
+  }
+  .contact-detail-area {
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+  .contact-banner {
+    padding: 55px 0;
+  }
+  .for-business-banner-image {
+    position: static !important;
+    width: 100% !important;
+    margin-top: 4rem !important;
+  }
+  .profile-banner-absolute {
+    bottom: 15px;
+  }
+  .profile-banner-absolute h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+  .profile-location {
+    font-size: 18px;
+  }
+  .profile-banner-ul li {
+    font-size: 16px;
+  }
+  .profile-banner-ul {
+    margin: 5px 0 0;
+  }
+  .reserve_btn {
+    margin-left: 0;
+    width: 100%;
+  }
+  .company-profile-wrapper .contact-detail-area {
+    margin-top: 40px;
+  }
+  .engine_mobile_img {
+    margin: 0 auto;
+    display: table;
+  }
+  .Preference_Engine_start {
+    margin-bottom: 5rem;
+  }
+  .beta-version {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .bg_image_blue_baner .section-block-text {
+    font-size: 23px;
+  }
+  .profile-banner .verified-label {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner-wrapper {
+    padding: 70px 0;
+  }
+  .banner-title {
+    font-size: 30px;
+  }
+  .banner-subtitle {
+    font-size: 20px;
+  }
+  .search_bar {
+    flex-direction: column;
+    padding: 25px;
+  }
+  .city-search-box,
+  .search-business-box {
+    max-width: 100%;
+  }
+  .search-business-box {
+    margin-top: 25px;
+  }
+  .search_button {
+    max-width: 100%;
+    padding: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .preference_text {
+    font-size: 40px;
+  }
+  .search-company-wrapper {
+    padding: 60px 0px 0px;
+  }
+  .profile-banner .profile-location {
+    text-align: left;
+  }
+  a.download-app-btn {
+    margin-right: 10px;
+  }
+  .profile-banner {
+    min-height: 50vh;
+    height: fit-content;
+  }
+  .hero_content {
+    padding-block: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner-title {
+    font-size: 24px;
+  }
+  .banner-subtitle {
+    font-size: 17px;
+  }
+  .invite-textbox {
+    border-radius: 5px;
+  }
+  .invite-button {
+    max-width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  .preference_text {
+    font-size: 34px;
+  }
+  .footer-wrapper {
+    padding: 45px 0;
+  }
+  .request-invite-area {
+    margin: 30px 0;
+    flex-direction: column;
+  }
+  .how-it-work-title {
+    font-size: 38px;
+  }
+  .section-block-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .preference-secure li {
+    float: none;
+    width: 100%;
+  }
+  a.download-app-btn {
+    width: 45%;
+  }
+  .logo {
+    max-width: 160px;
+  }
+  .menu-area {
+    width: calc(100% - 160px);
+  }
+  .login-btn a {
+    font-size: 13px;
+    padding: 5px 12px;
+  }
+  a.menu-icon {
+    top: 16px;
+    right: 85px;
+  }
+  a.menu-icon img {
+    max-width: 25px;
+  }
+  .menu {
+    top: 55px;
+  }
+  .contact-row .contact-icon {
+    flex: 0 0 40px;
+  }
+  .contact-row {
+    font-size: 17px;
+  }
+  .mickensey-banner {
+    padding: 40px 0;
+  }
+  .mickensey-banner h1 {
+    font-size: 20px;
+  }
+  .profile-banner .profile-banner-absolute {
+    position: static !important;
+    padding-top: 15px;
+  }
+
+  .profile-location,
+  .profile-banner-ul {
+    color: #000;
+  }
+  .profile-banner-ul li:before {
+    background-color: #000;
+  }
+  .profile-banner-absolute .verified-label span {
+    color: #fff;
+  }
+  .profile-banner-absolute h1 {
+    font-size: 23px;
+    text-align: left;
+    color: #000;
+  }
+  .company-profile-area ul li {
+    padding-left: 15px;
+  }
+  .company-profile-area ul li:before {
+    left: 0;
+  }
+
+  .Preference_Engine_start {
+    margin-bottom: 4rem;
+  }
+  .profile-banner:before {
+    display: none;
+  }
+}
